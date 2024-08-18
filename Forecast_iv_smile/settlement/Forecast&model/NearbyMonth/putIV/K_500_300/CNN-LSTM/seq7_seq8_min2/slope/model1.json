@@ -1,0 +1,252 @@
+{
+    "lstm_slope_structure": {
+        "input_shape": [
+            7,
+            99
+        ],
+        "lstm_neurons_num": [
+            207
+        ],
+        "lstm_activations": [
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            289,
+            119
+        ],
+        "dense_activations": [
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.0002971772337332368
+            },
+            {
+                "type": "L2",
+                "l2": 2.2193044060259126e-05
+            },
+            {
+                "type": "L2",
+                "l2": 0.00041965319542214274
+            }
+        ]
+    },
+    "cnn_OC_structure": {
+        "input_shape": [
+            8,
+            8,
+            3
+        ],
+        "cnn_kernel_size": [
+            [
+                5,
+                5
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                5,
+                5
+            ]
+        ],
+        "cnn_filters": [
+            45,
+            72,
+            94
+        ],
+        "cnn_stride": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "cnn_padding": [
+            "same",
+            "same",
+            "same"
+        ],
+        "cnn_activations": [
+            "relu",
+            "relu",
+            "relu"
+        ],
+        "dense_neurons_num": [
+            274
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.005579465534538031
+            },
+            {
+                "type": "L2",
+                "l2": 1.4346478565130383e-06
+            },
+            {
+                "type": "L2",
+                "l2": 4.696605901699513e-05
+            },
+            {
+                "type": "L2",
+                "l2": 0.007418604101985693
+            }
+        ]
+    },
+    "cnn_HL_structure": {
+        "input_shape": [
+            8,
+            8,
+            3
+        ],
+        "cnn_kernel_size": [
+            [
+                6,
+                6
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                6,
+                6
+            ],
+            [
+                7,
+                7
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "cnn_filters": [
+            44,
+            81,
+            113,
+            79,
+            43,
+            92
+        ],
+        "cnn_stride": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "cnn_padding": [
+            "same",
+            "same",
+            "same",
+            "same",
+            "same",
+            "same"
+        ],
+        "cnn_activations": [
+            "relu",
+            "relu",
+            "relu",
+            "relu",
+            "relu",
+            "relu"
+        ],
+        "dense_neurons_num": [
+            470
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 8.973143849289045e-06
+            },
+            {
+                "type": "L2",
+                "l2": 3.242765524191782e-05
+            },
+            {
+                "type": "L2",
+                "l2": 0.0001371860271319747
+            },
+            {
+                "type": "L2",
+                "l2": 9.688237332738936e-05
+            },
+            {
+                "type": "L2",
+                "l2": 3.6180314054945484e-05
+            },
+            {
+                "type": "L2",
+                "l2": 1.550746128486935e-05
+            },
+            {
+                "type": "L2",
+                "l2": 2.5115368771366775e-06
+            }
+        ]
+    },
+    "Merged_structure": {
+        "neurons_num": [
+            127,
+            579
+        ],
+        "activations": [
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.0024466540198773146
+            },
+            {
+                "type": "L2",
+                "l2": 2.6279722078470513e-05
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "model_structure": {
+        "input_shape": 709,
+        "neurons_num": [
+            567,
+            567,
+            567,
+            99
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 1.1427133586039417e-06
+            },
+            {
+                "type": "L2",
+                "l2": 1.1427133586039417e-06
+            },
+            {
+                "type": "L2",
+                "l2": 1.1427133586039417e-06
+            },
+            {
+                "type": "L2",
+                "l2": 1.1427133586039417e-06
+            }
+        ],
+        "dense_activations": [
+            "relu",
+            "relu",
+            "relu",
+            "relu"
+        ]
+    }
+}

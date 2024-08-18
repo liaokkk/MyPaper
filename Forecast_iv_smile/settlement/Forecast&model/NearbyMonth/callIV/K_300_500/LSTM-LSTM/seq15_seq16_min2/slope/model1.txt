@@ -1,0 +1,24 @@
+lstm_OCHL_structure:
+input_shape: (16, 2)
+lstm_neurons_num: [592, 592, 592]
+lstm_activations: ['tanh', 'tanh', 'tanh']
+lstm_recurrent_activations: ['sigmoid', 'sigmoid', 'sigmoid']
+dense_neurons_num: [492]
+dense_activations: ['relu']
+kernel_regularizer: [<keras.regularizers.L2 object at 0x000002928921DFC0>, <keras.regularizers.L2 object at 0x000002928921DFC0>, <keras.regularizers.L2 object at 0x000002928921DFC0>, <keras.regularizers.L2 object at 0x000002928921DFC0>]
+-----------------
+lstm_Slope_structure:
+input_shape: (15, 99)
+lstm_neurons_num: [100]
+lstm_activations: ['tanh']
+lstm_recurrent_activations: ['sigmoid']
+dense_neurons_num: [110]
+dense_activations: ['relu']
+kernel_regularizer: [<keras.regularizers.L2 object at 0x000002928921DAE0>, <keras.regularizers.L2 object at 0x000002928921DAE0>]
+-----------------
+Merged_structure:
+neurons_num: [199, 199, 199]
+activations: ['relu', 'relu', 'relu']
+kernel_regularizer: [<keras.regularizers.L2 object at 0x00000293763CF670>, <keras.regularizers.L2 object at 0x00000293763CF670>, <keras.regularizers.L2 object at 0x00000293763CF670>]
+-----------------
+MSE:0.003102181493516359MSE_adj:0.0027496128204268036

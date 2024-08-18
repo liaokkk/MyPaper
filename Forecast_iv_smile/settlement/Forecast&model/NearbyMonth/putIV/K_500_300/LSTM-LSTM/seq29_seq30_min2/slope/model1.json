@@ -1,0 +1,104 @@
+{
+    "lstm_OCHL_structure": {
+        "input_shape": [
+            30,
+            2
+        ],
+        "lstm_neurons_num": [
+            592,
+            592,
+            592
+        ],
+        "lstm_activations": [
+            "tanh",
+            "tanh",
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid",
+            "sigmoid",
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            492
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 6.371908511937363e-06
+            },
+            {
+                "type": "L2",
+                "l2": 6.371908511937363e-06
+            },
+            {
+                "type": "L2",
+                "l2": 6.371908511937363e-06
+            },
+            {
+                "type": "L2",
+                "l2": 6.371908511937363e-06
+            }
+        ]
+    },
+    "lstm_Slope_structure": {
+        "input_shape": [
+            29,
+            99
+        ],
+        "lstm_neurons_num": [
+            100
+        ],
+        "lstm_activations": [
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            110
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 8.409121619479265e-06
+            },
+            {
+                "type": "L2",
+                "l2": 8.409121619479265e-06
+            }
+        ]
+    },
+    "Merged_structure": {
+        "neurons_num": [
+            199,
+            199,
+            199
+        ],
+        "activations": [
+            "relu",
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 4.9970731197390705e-05
+            },
+            {
+                "type": "L2",
+                "l2": 4.9970731197390705e-05
+            },
+            {
+                "type": "L2",
+                "l2": 4.9970731197390705e-05
+            }
+        ]
+    }
+}

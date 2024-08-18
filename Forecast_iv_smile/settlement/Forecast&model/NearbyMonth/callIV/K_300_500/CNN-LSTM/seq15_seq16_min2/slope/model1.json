@@ -1,0 +1,198 @@
+{
+    "lstm_slope_structure": {
+        "input_shape": [
+            15,
+            99
+        ],
+        "lstm_neurons_num": [
+            490
+        ],
+        "lstm_activations": [
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            120,
+            247
+        ],
+        "dense_activations": [
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 7.736931002000347e-05
+            },
+            {
+                "type": "L2",
+                "l2": 0.00027791401953436434
+            },
+            {
+                "type": "L2",
+                "l2": 4.788330988958478e-05
+            }
+        ]
+    },
+    "cnn_OC_structure": {
+        "input_shape": [
+            16,
+            16,
+            3
+        ],
+        "cnn_kernel_size": [
+            [
+                7,
+                7
+            ],
+            [
+                6,
+                6
+            ]
+        ],
+        "cnn_filters": [
+            58,
+            33
+        ],
+        "cnn_stride": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "cnn_padding": [
+            "same",
+            "same"
+        ],
+        "cnn_activations": [
+            "relu",
+            "relu"
+        ],
+        "dense_neurons_num": [
+            119
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.0031528607942163944
+            },
+            {
+                "type": "L2",
+                "l2": 0.00028212828328832984
+            },
+            {
+                "type": "L2",
+                "l2": 0.00011160546273458749
+            }
+        ]
+    },
+    "cnn_HL_structure": {
+        "input_shape": [
+            16,
+            16,
+            3
+        ],
+        "cnn_kernel_size": [
+            [
+                8,
+                8
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                8,
+                8
+            ]
+        ],
+        "cnn_filters": [
+            19,
+            36,
+            65
+        ],
+        "cnn_stride": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "cnn_padding": [
+            "same",
+            "same",
+            "same"
+        ],
+        "cnn_activations": [
+            "relu",
+            "relu",
+            "relu"
+        ],
+        "dense_neurons_num": [
+            349
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 1.30125590658281e-06
+            },
+            {
+                "type": "L2",
+                "l2": 0.008864538744091988
+            },
+            {
+                "type": "L2",
+                "l2": 1.0706945658967015e-06
+            },
+            {
+                "type": "L2",
+                "l2": 3.977563028456643e-05
+            }
+        ]
+    },
+    "Merged_structure": {
+        "neurons_num": [
+            479,
+            103,
+            287
+        ],
+        "activations": [
+            "relu",
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 5.329143732524244e-06
+            },
+            {
+                "type": "L2",
+                "l2": 2.535375278966967e-05
+            },
+            {
+                "type": "L2",
+                "l2": 1.8160521904064808e-06
+            }
+        ]
+    }
+}

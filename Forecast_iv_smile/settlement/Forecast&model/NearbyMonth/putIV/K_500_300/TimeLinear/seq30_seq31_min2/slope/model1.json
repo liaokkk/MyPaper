@@ -1,0 +1,14 @@
+{
+    "model_structure": {
+        "input_shape": 3032,
+        "neurons_num": [
+            99
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 2.9625220122397877e-05
+            }
+        ]
+    }
+}

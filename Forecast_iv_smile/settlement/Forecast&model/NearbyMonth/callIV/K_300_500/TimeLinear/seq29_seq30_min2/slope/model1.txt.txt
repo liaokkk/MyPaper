@@ -1,0 +1,6 @@
+model_structure:
+input_shape: 2931
+neurons_num: [99]
+kernel_regularizer: [<keras.regularizers.L2 object at 0x0000023209C84760>]
+-----------------
+MSE:0.011466931154932402MSE_adj:0.010364362798390316

@@ -1,0 +1,37 @@
+lstm_slope_structure:
+input_shape: (7, 99)
+lstm_neurons_num: [383]
+lstm_activations: ['tanh']
+lstm_recurrent_activations: ['sigmoid']
+dense_neurons_num: [244, 410]
+dense_activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.L2 object at 0x7a4016c1faf0>, <keras.src.regularizers.L2 object at 0x7a4016c1ffd0>, <keras.src.regularizers.L2 object at 0x7a4016c1fb50>]
+-----------------
+cnn_OC_structure:
+input_shape: (8, 8, 3)
+cnn_kernel_size: [(7, 7), (8, 8), (9, 9)]
+cnn_filters: [17, 53, 113]
+cnn_stride: [(1, 1), (1, 1), (1, 1)]
+cnn_padding: ['same', 'same', 'same']
+cnn_activations: ['relu', 'relu', 'relu']
+dense_neurons_num: [120]
+dense_activations: ['relu']
+kernel_regularizer: [<keras.src.regularizers.L2 object at 0x7a4016c1f520>, <keras.src.regularizers.L2 object at 0x7a4016c1ec50>, <keras.src.regularizers.L2 object at 0x7a4016c1f550>, <keras.src.regularizers.L2 object at 0x7a4016c1f910>]
+-----------------
+cnn_HL_structure:
+input_shape: (8, 8, 3)
+cnn_kernel_size: [(7, 7), (4, 4), (9, 9), (8, 8), (7, 7)]
+cnn_filters: [22, 38, 118, 90, 72]
+cnn_stride: [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+cnn_padding: ['same', 'same', 'same', 'same', 'same']
+cnn_activations: ['relu', 'relu', 'relu', 'relu', 'relu']
+dense_neurons_num: [259, 481]
+dense_activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.L2 object at 0x7a40a5cc8760>, <keras.src.regularizers.L2 object at 0x7a4080c87070>, <keras.src.regularizers.L2 object at 0x7a4080c85930>, <keras.src.regularizers.L2 object at 0x7a4080c85840>, <keras.src.regularizers.L2 object at 0x7a4089fcd780>, <keras.src.regularizers.L2 object at 0x7a4089e793f0>, <keras.src.regularizers.L2 object at 0x7a4089e7ab60>]
+-----------------
+Merged_structure:
+neurons_num: [124, 187]
+activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.L2 object at 0x7a408b0b4880>, <keras.src.regularizers.L2 object at 0x7a408b4bf9d0>]
+-----------------
+MSE:0.001974535157596322MSE_adj:0.0017179944643825188

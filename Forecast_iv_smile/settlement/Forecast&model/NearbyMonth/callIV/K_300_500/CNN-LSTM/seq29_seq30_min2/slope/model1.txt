@@ -1,0 +1,37 @@
+lstm_slope_structure:
+input_shape: (29, 99)
+lstm_neurons_num: [383]
+lstm_activations: ['tanh']
+lstm_recurrent_activations: ['sigmoid']
+dense_neurons_num: [244, 410]
+dense_activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.regularizers.L2 object at 0x000001A0678215A0>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067823B50>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067820310>]
+-----------------
+cnn_OC_structure:
+input_shape: (30, 30, 3)
+cnn_kernel_size: [(7, 7), (8, 8), (9, 9)]
+cnn_filters: [17, 53, 113]
+cnn_stride: [(1, 1), (1, 1), (1, 1)]
+cnn_padding: ['same', 'same', 'same']
+cnn_activations: ['relu', 'relu', 'relu']
+dense_neurons_num: [120]
+dense_activations: ['relu']
+kernel_regularizer: [<keras.src.regularizers.regularizers.L2 object at 0x000001A067822F20>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067821360>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067821AE0>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067823820>]
+-----------------
+cnn_HL_structure:
+input_shape: (30, 30, 3)
+cnn_kernel_size: [(7, 7), (4, 4), (9, 9), (8, 8), (7, 7)]
+cnn_filters: [22, 38, 118, 90, 72]
+cnn_stride: [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+cnn_padding: ['same', 'same', 'same', 'same', 'same']
+cnn_activations: ['relu', 'relu', 'relu', 'relu', 'relu']
+dense_neurons_num: [259, 481]
+dense_activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.regularizers.L2 object at 0x000001A0678234C0>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067823880>, <keras.src.regularizers.regularizers.L2 object at 0x000001A0678229B0>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067823EB0>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067820520>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067821B40>]
+-----------------
+Merged_structure:
+neurons_num: [124, 187]
+activations: ['relu', 'relu']
+kernel_regularizer: [<keras.src.regularizers.regularizers.L2 object at 0x000001A067821C30>, <keras.src.regularizers.regularizers.L2 object at 0x000001A067821F60>]
+-----------------
+MSE:0.002079625227853874MSE_adj:0.0017873722612710044

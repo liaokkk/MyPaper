@@ -1,0 +1,2 @@
+model,T Stat.,P-value,T Stat.,P-value,T Stat.,P-value
+CNN-LSTM(15),-1.3996,0.1639,-2.4920,0.0136,-4.9424,<.0001

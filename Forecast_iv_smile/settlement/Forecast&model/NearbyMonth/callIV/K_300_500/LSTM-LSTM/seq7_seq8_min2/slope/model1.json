@@ -1,0 +1,112 @@
+{
+    "lstm_OCHL_structure": {
+        "input_shape": [
+            8,
+            2
+        ],
+        "lstm_neurons_num": [
+            182,
+            182,
+            182,
+            182,
+            182
+        ],
+        "lstm_activations": [
+            "tanh",
+            "tanh",
+            "tanh",
+            "tanh",
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid",
+            "sigmoid",
+            "sigmoid",
+            "sigmoid",
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            279
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            },
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            },
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            },
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            },
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            },
+            {
+                "type": "L2",
+                "l2": 0.00048153402167372406
+            }
+        ]
+    },
+    "lstm_Slope_structure": {
+        "input_shape": [
+            7,
+            99
+        ],
+        "lstm_neurons_num": [
+            595
+        ],
+        "lstm_activations": [
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            231
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 1.4556943824572954e-05
+            },
+            {
+                "type": "L2",
+                "l2": 1.4556943824572954e-05
+            }
+        ]
+    },
+    "Merged_structure": {
+        "neurons_num": [
+            255,
+            255
+        ],
+        "activations": [
+            "relu",
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 2.5406206987099722e-05
+            },
+            {
+                "type": "L2",
+                "l2": 2.5406206987099722e-05
+            }
+        ]
+    }
+}

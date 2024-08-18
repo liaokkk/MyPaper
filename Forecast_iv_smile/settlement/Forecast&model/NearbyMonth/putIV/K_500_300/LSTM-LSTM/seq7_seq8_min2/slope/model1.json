@@ -1,0 +1,85 @@
+{
+    "lstm_OCHL_structure": {
+        "input_shape": [
+            8,
+            2
+        ],
+        "lstm_neurons_num": [
+            131,
+            131
+        ],
+        "lstm_activations": [
+            "tanh",
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid",
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            120
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.00016518020129296929
+            },
+            {
+                "type": "L2",
+                "l2": 0.00016518020129296929
+            },
+            {
+                "type": "L2",
+                "l2": 0.00016518020129296929
+            }
+        ]
+    },
+    "lstm_Slope_structure": {
+        "input_shape": [
+            7,
+            99
+        ],
+        "lstm_neurons_num": [
+            162
+        ],
+        "lstm_activations": [
+            "tanh"
+        ],
+        "lstm_recurrent_activations": [
+            "sigmoid"
+        ],
+        "dense_neurons_num": [
+            298
+        ],
+        "dense_activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 4.657756562664872e-06
+            },
+            {
+                "type": "L2",
+                "l2": 4.657756562664872e-06
+            }
+        ]
+    },
+    "Merged_structure": {
+        "neurons_num": [
+            103
+        ],
+        "activations": [
+            "relu"
+        ],
+        "kernel_regularizer": [
+            {
+                "type": "L2",
+                "l2": 0.0031246375292539597
+            }
+        ]
+    }
+}

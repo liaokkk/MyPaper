@@ -1,0 +1,7 @@
+model_structure:
+input_shape: 709
+neurons_num: [99]
+kernel_regularizer: [<keras.regularizers.L2 object at 0x0000021164D4C790>]
+dense_activations: ['relu']
+-----------------
+MSE:0.005103528374556701MSE_adj:0.004159049229919475
